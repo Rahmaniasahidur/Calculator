@@ -1,0 +1,36 @@
+div {
+    align-content: center;
+    margin-top: 10px;
+    overflow-y: hidden;
+}
+.wrap form input {
+    border: 0;
+    outline: none;
+    width: 80px;
+    height: 80px;
+    border-radius: 15px;
+    margin: 2px;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid #8B8B8B;
+    color: #A7ffcf;
+    font-weight: bold;
+    font-size: 20px;
+    box-shadow: inset -1px 1px 3px 0.1 #A7FFCF
+                inset 1px -1px 3px 0.1 #3C5B4A;
+}
+form .display {
+
+    display:flex;
+    justify-content: flex-start;
+    margin: 10px 0;
+}
+form .display input {
+    flex: 2;
+    text-align: right;
+    box-shadow: -1px 1px 4px 0.1px #007334,
+                 1px -1px 4px 0.1px #002E15;
+    font-size: 60px;
+    color: #b5ffd6;
+}
